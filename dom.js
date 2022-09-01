@@ -12,6 +12,16 @@
 // const list = document.getElementsByClassName("list-group-item");
 // list[0].style.backgroundColor = "grey";
 
-let add = document.getElementsByClassName("title");
-add[0].style.color ="green";
-add[0].style.fontWeight="bold"
+// let add = document.getElementsByClassName("title");
+// add[0].style.color ="green";
+// add[0].style.fontWeight="bold"
+// for(let a of add){
+//     a.style.backgroundColor ="grey";
+// }
+
+let list =document.getElementsByClassName("list-group-item");
+list[2].style.backgroundColor = "green";
+
+for(let li of list){
+    li.style.fontWeight ="bold";
+}
