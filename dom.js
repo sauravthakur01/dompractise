@@ -19,9 +19,16 @@
 //     a.style.backgroundColor ="grey";
 // }
 
-let list =document.getElementsByClassName("list-group-item");
-list[2].style.backgroundColor = "green";
+// let list =document.getElementsByClassName("list-group-item");
+// list[2].style.backgroundColor = "green";
 
-for(let li of list){
-    li.style.fontWeight ="bold";
+// for(let li of list){
+//     li.style.fontWeight ="bold";
+// }
+
+let li =document.getElementsByTagName("li");
+li[2].style.backgroundColor = "green";
+
+for(let lis of li){
+    lis.style.fontWeight ="bold";
 }
